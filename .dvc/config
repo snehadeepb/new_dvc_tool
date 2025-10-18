@@ -1,4 +1,8 @@
 [core]
-    remote = myremote
+    remote = local_storage
 ['remote "myremote"']
     url = ../s3
+['remote "s3remote"']
+    url = s3://your-actual-bucket-name/path/to/dvc_storage
+['remote "local_storage"']
+    url = C:/Users/sneha/Desktop/ml_ops/dvc_local_storage
